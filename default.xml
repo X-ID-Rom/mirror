@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".." />
+  <remote name="github"
+    fetch=".." />
 
   <default revision="master"
-           remote="github"
-           sync-j="4" />
+    remote="github"
+    sync-j="4" />
+
+  <remote name="xid-git"
+    fetch="https://github.com/X-ID-Rom"
+  />
 
   <project name="LineageOS/AR6kSDK.3.1" />
   <project name="LineageOS/AndroidAsync" />
@@ -678,7 +682,7 @@
   <project name="LineageOS/android_device_samsung_cooper" />
   <project name="LineageOS/android_device_samsung_crespo" />
   <project name="LineageOS/android_device_samsung_crespo4g" />
-  <project name="LineageOS/android_device_samsung_crownlte" />
+  <project name="android_device_samsung_crownlte" remote="xid-git" />
   <project name="LineageOS/android_device_samsung_d1" />
   <project name="LineageOS/android_device_samsung_d2-common" />
   <project name="LineageOS/android_device_samsung_d2att" />
@@ -1949,11 +1953,15 @@
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_quill" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_common" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_bct" />
-  <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts" />
-  <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts" />
-  <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_mccoy_kernel-dts" />
+  <project
+    name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts" />
+  <project
+    name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts" />
+  <project
+    name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_mccoy_kernel-dts" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_abca" />
-  <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_batuu_kernel-dts" />
+  <project
+    name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_batuu_kernel-dts" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_ers" />
   <project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster" />
