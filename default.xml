@@ -682,7 +682,7 @@
   <project name="LineageOS/android_device_samsung_cooper" />
   <project name="LineageOS/android_device_samsung_crespo" />
   <project name="LineageOS/android_device_samsung_crespo4g" />
-  <project name="android_device_samsung_crownlte" remote="xid-git" />
+  <project name="X-ID-Rom/android_device_samsung_crownlte" revision="thirteen" />
   <project name="LineageOS/android_device_samsung_d1" />
   <project name="LineageOS/android_device_samsung_d2-common" />
   <project name="LineageOS/android_device_samsung_d2att" />
